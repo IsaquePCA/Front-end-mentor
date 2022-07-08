@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Softred: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+    --Darkbrown: hsl(25, 47%, 15%);
+    --Mediumbrown: hsl(28, 10%, 53%);
+    --ream: hsl(27, 66%, 92%);
+    --Verypaleorange: hsl(33, 100%, 98%);
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--ream);
+}
+
+
+div.conteudo {
+    width: 330px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+div.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px; 
+    border-radius: 10px;
+    align-items: center;
+    background-color: var(--Softred);
+}
+
+div.topo p {
+    color: var(--ream);
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+div.topo h1 {
+    color: var(--Verypaleorange);
+    font-size: 1.5rem;
+}
+
+
+/* meio */
+
+div.meio {
+    margin-top: 15px;
+    background-color: var(--Verypaleorange);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+div.meio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+div.meio-container h2 {
+    font-size: 1.3em;
+}
+
+div.list ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+div.list ul li {
+    margin-right: -20px;
+}
+
+.list ul li {
+    color: var(--Mediumbrown);
+    font-weight: 700;
+}
+
+.grafico {
+    width: 340px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grafico .mon {
+    width: 30px;
+    height: 20px;
+    background-color: var(--Softred);
+}
+
+.grafico .tue {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Softred);
+}
+
+.grafico .wed {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Cyan);
+}
+
+.grafico .thu {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Softred);
+}
+
+.grafico .fri {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Softred);
+}
+
+.grafico .sat {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Softred);
+}
+
+.grafico .sun {
+    width: 30px;
+    height: 90px;
+    background-color: var(--Softred);
+}
+
+/* fim */ 
+
+.fim {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.fim .container-fim {
+    margin-left: -20px;
+    padding-bottom: 10px;
+}
+
+.fim .container-fim p {
+    padding-bottom: 3px;
+    color: var(--Mediumbrown);
+    font-weight: 700;
+}
+
+.container-fim-2 {
+    margin-right: -15px;
+    padding-top: 15px;
+}
+
+.container-fim-2 #porcentagem {
+    font-weight: 700;
+    margin-left: 69px;
+    font-size: .9em;
+}
+
+.container-fim-2 #from {
+    padding-bottom: 3px;
+    color: var(--Mediumbrown);
+    font-weight: 700;
+}
